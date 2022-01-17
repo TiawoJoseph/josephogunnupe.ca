@@ -1,0 +1,63 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.projects{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.skills{
+    widows: 100%;
+    height:40vh;
+    background-color: black;
+    color:white;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.container-master{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.abtImg{
+    width:35%;
+    height:45%;
+}
+
+.navbar{
+    background-color: black !important;
+}
+
+hr{
+    width: 35%; 
+    background-color: #D71515;
+}
