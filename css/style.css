@@ -1,3 +1,7 @@
+*{
+    background-color:black;
+    color:white;
+}
 .home{
     height: 100vh;
     width: 100%;
@@ -13,7 +17,32 @@
     color: white;
 
 }
+.about-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* background-color: aliceblue; */
+    width:90%;
+    height:80vh;
+}
 
+.about-conO{
+    display: flex;
+ 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-con p {
+    width: 45%;
+    line-height: 1.5rem;
+}
+
+.abtImg{
+    height:100vh;
+}
 .contact{
     height: 100vh;
     width: 100%;
@@ -32,7 +61,7 @@
 
 .skills{
     widows: 100%;
-    height:40vh;
+    height:50vh;
     background-color: black;
     color:white;
 }
@@ -54,10 +83,53 @@
 }
 
 .navbar{
-    background-color: black !important;
+    background-color:black;
+    color:white;
+}
+
+.navbar-nav {
+    margin-left: 70%;
 }
 
 hr{
     width: 35%; 
     background-color: #D71515;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-text h3 {
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.home-text h6{
+    font-size: 1.6rem;
+    font-weight:lighter;
+}
+
+.home-text h5{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.home-text hr{
+    width:50%;
+    height:25%;
+    color:red;
+    text-align: start;
+}
+
+.container-master p{
+    font-weight: lighter;
+    font-size: 1.5rem;
 }
