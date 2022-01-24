@@ -133,3 +133,11 @@ hr{
     font-weight: lighter;
     font-size: 1.5rem;
 }
+
+.footer{
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
