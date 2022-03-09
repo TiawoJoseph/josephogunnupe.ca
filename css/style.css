@@ -141,3 +141,46 @@ hr{
     font-weight: lighter;
     font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 772px) {
+    .projects{
+        height:125vh ;
+    }
+    .footer {
+        height: 20vh;
+    }
+  }
+
+  @media only screen and (max-width: 487px) {
+    .projects{
+        height:140vh ;
+    }
+    .footer {
+        height: 20vh;
+    }
+  }
+
+  @media only screen and (max-width: 387px) {
+    .projects{
+        height:220vh ;
+    }
+    .footer {
+        height: 20vh;
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+   .abtImg{
+      display: none;
+   }
+
+   .about-con p {
+    width: 95%;
+    line-height: 1.5rem;
+    
+}
+   .about-con{
+       justify-content: center;
+       
+   }
+  }
